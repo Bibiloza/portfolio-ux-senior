@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Medical Scheduling Platform — Case Study by Bibiana Loza, Senior Product Designer.">
+  <title>Medical Scheduling Platform — Bibiana Loza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-mark">BL</span>
+        <span class="nav__logo-name">Bibiana Loza</span>
+      </a>
+      <div class="nav__links">
+        <a href="index.html#work" class="nav__link active">Work</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="resume.html" class="nav__link">Resume</a>
+        <a href="mailto:b-loza@outlook.com" class="btn btn--accent btn--sm">Get in Touch</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" id="navMobile">
+    <a href="index.html#work" class="nav__link">Work</a>
+    <a href="about.html" class="nav__link">About</a>
+    <a href="resume.html" class="nav__link">Resume</a>
+    <a href="mailto:b-loza@outlook.com" class="btn btn--primary">Get in Touch</a>
+  </div>
+
+  <!-- ── Case Study Hero ─────────────────────────────────────── -->
+  <section class="cs-hero">
+    <div class="container">
+      <a href="index.html#work" class="cs-hero__back fade-in">← Back to Work</a>
+      <p class="cs-hero__category fade-in">HealthTech · Enterprise · Scheduling</p>
+      <h1 class="cs-hero__title fade-in fade-in--delay-1">Medical Scheduling Platform</h1>
+      <p class="cs-hero__summary fade-in fade-in--delay-2">
+        Redesigning the scheduling infrastructure for a multi-specialty hospital network —
+        unifying 12+ clinical departments into a single, coherent system and eliminating
+        the fragmented workflows that were causing operational breakdowns.
+      </p>
+
+      <div class="cs-meta-grid fade-in fade-in--delay-3">
+        <div class="cs-meta-item">
+          <div class="cs-meta-item__label">Role</div>
+          <div class="cs-meta-item__value">Lead UX Designer</div>
+        </div>
+        <div class="cs-meta-item">
+          <div class="cs-meta-item__label">Timeline</div>
+          <div class="cs-meta-item__value">6 months</div>
+        </div>
+        <div class="cs-meta-item">
+          <div class="cs-meta-item__label">Team</div>
+          <div class="cs-meta-item__value">Design, Dev, Clinical Ops</div>
+        </div>
+        <div class="cs-meta-item">
+          <div class="cs-meta-item__label">Impact</div>
+          <div class="cs-meta-item__value text-gradient">↓ 40% conflicts</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Hero Image ──────────────────────────────────────────── -->
+  <div class="container" style="padding-top: var(--s8); padding-bottom: 0;">
+    <div class="image-block fade-in" style="min-height: 380px;">
+      <span class="image-block__icon">⊞</span>
+      <p>Replace with project hero image or Figma export</p>
+      <span class="image-block__caption">Dashboard overview — Medical Scheduling Platform</span>
+    </div>
+  </div>
+
+  <!-- ── Case Study Content ──────────────────────────────────── -->
+  <section class="cs-content">
+    <div class="container">
+      <div class="cs-layout">
+
+        <!-- Table of Contents -->
+        <aside class="cs-toc">
+          <div class="cs-toc__label">On this page</div>
+          <a href="#context" class="cs-toc__link">Context &amp; Challenge</a>
+          <a href="#research" class="cs-toc__link">Research</a>
+          <a href="#process" class="cs-toc__link">Process</a>
+          <a href="#solution" class="cs-toc__link">Solution</a>
+          <a href="#outcomes" class="cs-toc__link">Outcomes</a>
+          <a href="#learnings" class="cs-toc__link">Learnings</a>
+        </aside>
+
+        <!-- Body -->
+        <div class="cs-body">
+
+          <!-- Context -->
+          <div class="cs-section fade-in" id="context">
+            <p class="cs-section__label">01 — Context &amp; Challenge</p>
+            <h2 class="cs-section__title">A hospital network growing faster than its scheduling could handle</h2>
+            <p>
+              As Reina Madre / María Linda expanded across specialties, scheduling became one
+              of its most critical operational pain points. Each department maintained its own
+              process — some used spreadsheets, others used phone calls, and a few relied on
+              whiteboards. There was no shared visibility, no unified logic, and no reliable
+              way to prevent conflicts.
+            </p>
+            <p>
+              The consequences were real: double-booked appointments, missed resource availability,
+              wasted surgical time, and frustrated clinical staff dealing with escalations that
+              should never have happened.
+            </p>
+            <p>
+              I was brought in to redesign the platform from the ground up — not just the UI,
+              but the underlying scheduling logic, information architecture, and the workflows
+              that clinical and administrative staff would use every day.
+            </p>
+
+            <div class="insight-card">
+              <div class="insight-card__label">The core problem</div>
+              <div class="insight-card__text">
+                "We had 12 departments managing scheduling independently. A patient needing
+                consultation across two specialties required manual coordination between two
+                separate systems — or two phone calls."
+                <br><em style="color: var(--text-muted); font-size: var(--text-sm);">— Clinical Operations Director (paraphrased for confidentiality)</em>
+              </div>
+            </div>
+          </div>
+
+          <!-- Research -->
+          <div class="cs-section fade-in" id="research">
+            <p class="cs-section__label">02 — Research</p>
+            <h2 class="cs-section__title">Embedded in the clinical environment</h2>
+            <p>
+              Before touching a wireframe, I spent two weeks conducting contextual inquiry
+              with the primary users: scheduling coordinators, clinic receptionists,
+              department heads, and physicians who interacted with the scheduling system
+              indirectly.
+            </p>
+
+            <h4>Research methods used</h4>
+            <ul>
+              <li>Observation sessions with scheduling coordinators in their daily context</li>
+              <li>Semi-structured interviews with department heads and clinical leads</li>
+              <li>Shadowing receptionists during peak scheduling periods</li>
+              <li>Workflow mapping workshops with operations management</li>
+              <li>Analysis of scheduling conflict logs from the previous 6 months</li>
+            </ul>
+
+            <h4>Key findings</h4>
+
+            <div class="insight-card">
+              <div class="insight-card__label">Finding 1 — Mental models differ by role</div>
+              <div class="insight-card__text">
+                Coordinators think in terms of time blocks and resource availability.
+                Physicians think in terms of patient conditions and appointment type.
+                The system needed to support both mental models simultaneously.
+              </div>
+            </div>
+
+            <div class="insight-card" style="margin-top: var(--s4); background: var(--blue-dim); border-color: rgba(107,163,212,0.18);">
+              <div class="insight-card__label" style="color: var(--blue);">Finding 2 — Conflict detection was manual</div>
+              <div class="insight-card__text">
+                100% of double-booking incidents required manual discovery — either a patient
+                called back to confirm, or a coordinator checked the physical board.
+                No system-level conflict detection existed.
+              </div>
+            </div>
+
+            <div class="image-block" style="min-height: 200px;">
+              <span class="image-block__icon">◎</span>
+              <p>Replace with: journey map, affinity diagram, or research synthesis</p>
+              <span class="image-block__caption">User journey map — scheduling coordinator daily flow</span>
+            </div>
+          </div>
+
+          <!-- Process -->
+          <div class="cs-section fade-in" id="process">
+            <p class="cs-section__label">03 — Process</p>
+            <h2 class="cs-section__title">From fragmented workflows to a unified system</h2>
+            <p>
+              The design process ran through four phases, with stakeholder reviews and
+              clinical validation checkpoints built into each transition.
+            </p>
+
+            <div class="process-phases">
+              <div class="process-phase">
+                <div class="process-phase__num">01</div>
+                <div class="process-phase__name">Discover</div>
+              </div>
+              <div class="process-phase">
+                <div class="process-phase__num">02</div>
+                <div class="process-phase__name">Define</div>
+              </div>
+              <div class="process-phase">
+                <div class="process-phase__num">03</div>
+                <div class="process-phase__name">Design</div>
+              </div>
+              <div class="process-phase">
+                <div class="process-phase__num">04</div>
+                <div class="process-phase__name">Validate</div>
+              </div>
+            </div>
+
+            <h4>Information architecture</h4>
+            <p>
+              The biggest structural challenge was creating a hierarchy that made sense across
+              different department types — some scheduling by resource (room, equipment),
+              others by provider (physician, nurse), and others by patient type.
+              I ran card-sorting sessions with coordinators to understand how they
+              naturally categorized appointment types.
+            </p>
+
+            <div class="image-block">
+              <span class="image-block__icon">▣</span>
+              <p>Replace with: IA diagram, sitemap, or flow diagram</p>
+              <span class="image-block__caption">Information architecture — unified scheduling system</span>
+            </div>
+
+            <h4>Key design decisions</h4>
+            <ul>
+              <li><strong>Single scheduling view with department filters</strong> — instead of separate systems per department</li>
+              <li><strong>Conflict detection surface at booking time</strong> — not after the fact</li>
+              <li><strong>Resource availability as a first-class element</strong> — rooms, equipment, and providers visible in context</li>
+              <li><strong>Role-based views</strong> — coordinators see resource grid; physicians see patient queue; admins see reports</li>
+            </ul>
+
+            <div class="image-block">
+              <span class="image-block__icon">⊞</span>
+              <p>Replace with: wireframe or high-fidelity mockup</p>
+              <span class="image-block__caption">Scheduling grid — coordinator view, annotated</span>
+            </div>
+          </div>
+
+          <!-- Solution -->
+          <div class="cs-section fade-in" id="solution">
+            <p class="cs-section__label">04 — Solution</p>
+            <h2 class="cs-section__title">A unified scheduling layer for all departments</h2>
+            <p>
+              The final system brought all scheduling activity into a single, role-aware interface.
+              The core scheduling grid provided real-time visibility into availability across
+              all departments — with conflict detection that surfaced issues before they became
+              problems, not after.
+            </p>
+
+            <h4>Core features shipped</h4>
+            <ul>
+              <li>Real-time scheduling grid with multi-department overlay</li>
+              <li>Automated conflict detection with inline resolution suggestions</li>
+              <li>Resource management panel (rooms, equipment, providers)</li>
+              <li>Appointment type system with custom scheduling rules per specialty</li>
+              <li>Role-based access and view modes</li>
+              <li>Basic analytics dashboard for department managers</li>
+            </ul>
+
+            <div class="image-block">
+              <span class="image-block__icon">◰</span>
+              <p>Replace with: final UI screens, prototype link, or Figma embed</p>
+              <span class="image-block__caption">Final UI — scheduling grid with conflict indicator active</span>
+            </div>
+          </div>
+
+          <!-- Outcomes -->
+          <div class="cs-section fade-in" id="outcomes">
+            <p class="cs-section__label">05 — Outcomes</p>
+            <h2 class="cs-section__title">Measurable impact at system level</h2>
+            <p>
+              Results were measured 3 months post-launch against baseline data from the
+              previous 6-month period.
+            </p>
+
+            <div class="outcome-grid">
+              <div class="outcome-card">
+                <div class="outcome-card__value text-gradient">↓ 40%</div>
+                <div class="outcome-card__label">Scheduling conflicts</div>
+              </div>
+              <div class="outcome-card">
+                <div class="outcome-card__value text-gradient">12+</div>
+                <div class="outcome-card__label">Departments unified on one platform</div>
+              </div>
+              <div class="outcome-card">
+                <div class="outcome-card__value text-gradient">↑ NPS</div>
+                <div class="outcome-card__label">Staff satisfaction with scheduling process</div>
+              </div>
+            </div>
+
+            <p>
+              Beyond the numbers, the most meaningful outcome was qualitative: scheduling
+              coordinators reported feeling "in control" for the first time — a signal that
+              the design had correctly matched their mental model and daily workflow.
+            </p>
+          </div>
+
+          <!-- Learnings -->
+          <div class="cs-section fade-in" id="learnings">
+            <p class="cs-section__label">06 — Learnings</p>
+            <h2 class="cs-section__title">What this project taught me</h2>
+            <p>
+              Healthcare scheduling is deceptively complex. On the surface it looks like a calendar.
+              Underneath it's a multi-constraint optimization problem involving time, physical space,
+              human availability, regulatory requirements, and patient urgency — and any design
+              that ignores that complexity will break in production.
+            </p>
+            <ul>
+              <li>Invest in workflow mapping before wireframing — the discovery phase saved weeks of rework</li>
+              <li>Role-based design is not optional in multi-stakeholder clinical systems</li>
+              <li>Conflict detection UX is about the language, not just the indicator — how you phrase a conflict determines whether staff trust the system</li>
+              <li>Adoption requires change management support alongside the product launch — I worked with operations to create onboarding materials</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Next Project CTA ─────────────────────────────────────── -->
+  <section class="cta-section" style="padding-top: 0;">
+    <div class="container">
+      <div class="cta-box fade-in">
+        <h2 class="cta-box__title">Want to see more?</h2>
+        <p class="cta-box__body">View all selected work or get in touch to discuss a project.</p>
+        <div style="display: flex; gap: var(--s3); justify-content: center; flex-wrap: wrap;">
+          <a href="index.html#work" class="btn btn--primary">All Projects</a>
+          <a href="mailto:b-loza@outlook.com" class="btn btn--ghost">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <a href="index.html" class="nav__logo">
+          <span class="nav__logo-mark">BL</span>
+          <span class="nav__logo-name">Bibiana Loza</span>
+        </a>
+        <p class="footer__tagline">Senior Product Designer · HealthTech Specialist</p>
+      </div>
+      <nav class="footer__links">
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="mailto:b-loza@outlook.com">Contact</a>
+      </nav>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2025 Bibiana Loza — Senior Product Designer. Project details reflect the scope and nature of the work; specific system names and patient data have been removed.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

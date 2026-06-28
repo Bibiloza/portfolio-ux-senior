@@ -1,0 +1,127 @@
+/* ================================================================
+   DESIGN SYSTEM — BIBI LOZA PORTFOLIO
+   ================================================================ */
+
+:root {
+  /* Backgrounds */
+  --bg:           #0C0D11;
+  --surface-1:    #12141B;
+  --surface-2:    #191C27;
+  --surface-3:    #222535;
+
+  /* Borders */
+  --border-subtle: rgba(255,255,255,0.06);
+  --border:        rgba(255,255,255,0.10);
+  --border-strong: rgba(255,255,255,0.17);
+
+  /* Text */
+  --text-primary:   #E9EAF2;
+  --text-secondary: #8B8FA8;
+  --text-muted:     #545870;
+
+  /* Accents */
+  --purple:       #9B8FE8;
+  --blue:         #6BA3D4;
+  --purple-dim:   rgba(155,143,232,0.11);
+  --blue-dim:     rgba(107,163,212,0.11);
+  --purple-glow:  rgba(155,143,232,0.22);
+
+  /* Gradient */
+  --gradient: linear-gradient(135deg, #9B8FE8 0%, #6BA3D4 100%);
+
+  /* Fonts */
+  --font-display: 'Inter Tight', -apple-system, sans-serif;
+  --font-body:    'Figtree', -apple-system, sans-serif;
+
+  /* Scale */
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+  --text-4xl:  2.25rem;
+  --text-5xl:  3rem;
+  --text-6xl:  3.75rem;
+  --text-7xl:  4.5rem;
+
+  /* Spacing */
+  --s1:  0.25rem;
+  --s2:  0.5rem;
+  --s3:  0.75rem;
+  --s4:  1rem;
+  --s5:  1.25rem;
+  --s6:  1.5rem;
+  --s8:  2rem;
+  --s10: 2.5rem;
+  --s12: 3rem;
+  --s16: 4rem;
+  --s20: 5rem;
+  --s24: 6rem;
+  --s32: 8rem;
+
+  /* Radius */
+  --r-sm:   4px;
+  --r-md:   8px;
+  --r-lg:   12px;
+  --r-xl:   20px;
+  --r-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.35);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.45);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.55);
+  --shadow-glow: 0 0 32px rgba(155,143,232,0.12);
+
+  /* Motion */
+  --ease: cubic-bezier(0.4,0,0.2,1);
+  --fast:   150ms;
+  --base:   220ms;
+  --slow:   350ms;
+
+  /* Layout */
+  --container: 1100px;
+  --nav-h:     72px;
+}
+
+/* ── Reset ──────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.65;
+}
+
+img, svg { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+button { cursor: pointer; border: none; background: none; font: inherit; }
+
+/* ── Utilities ──────────────────────────────────────────────── */
+.text-gradient {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-purple { color: var(--purple); }
+.text-blue   { color: var(--blue); }
+.text-muted  { color: var(--text-muted); }
+.text-secondary { color: var(--text-secondary); }
+
+.font-display { font-family: var(--font-display); }
+
+.hide-mobile { display: none; }
+@media (min-width: 768px) { .hide-mobile { display: inline; } }
