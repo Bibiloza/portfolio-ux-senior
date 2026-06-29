@@ -448,10 +448,6 @@
   overflow: hidden;
 }
 
-.project-card--wide .project-card__image {
-  aspect-ratio: auto;
-}
-
 .project-card__image--1 { background: linear-gradient(135deg, #1a1830 0%, #1c2540 100%); }
 .project-card__image--2 { background: linear-gradient(135deg, #0f2030 0%, #1a2535 100%); }
 .project-card__image--3 { background: linear-gradient(135deg, #1e1630 0%, #221c40 100%); }
