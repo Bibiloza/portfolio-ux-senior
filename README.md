@@ -27,23 +27,23 @@ Senior Product Designer with 8+ years of experience designing complex digital sy
 
 ---
 
+### Web Designer
+**Federación Mexicana de Fútbol Asociación · México**
+*2018*
+
+- Designed and maintained the association's web presence, digital communication materials, and graphic design assets for public and internal audiences.
+- Produced digital publications, newsletters, and event materials; developed foundational skills in visual hierarchy, layout systems, and digital publishing.
+
+---
+
 ### UX/UI Designer · UX Lead
 **Marketing Agency · Multi-Industry · México**
-*2016 – 2020*
+*2016 – 2017*
 
 - Led UX direction for digital projects across transportation, education, restaurant, and professional services clients — responsible for information architecture, user flows, wireframing, and final UI delivery.
 - Grew from individual contributor to UX Lead, managing design direction and reviewing deliverables across multi-disciplinary project teams.
 - Designed websites, web applications, and digital platforms for diverse client business models, developing the ability to ramp up quickly in unfamiliar domains.
 - Facilitated client-facing design reviews; managed feedback cycles and translated business requirements into user-centered design decisions.
-
----
-
-### Web Designer
-**Professional Football Players Association · México**
-*2014 – 2016*
-
-- Designed and maintained the association's web presence, digital communication materials, and graphic design assets for public and internal audiences.
-- Produced digital publications, newsletters, and event materials; developed foundational skills in visual hierarchy, layout systems, and digital publishing.
 
 ---
 
