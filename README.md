@@ -1,7 +1,7 @@
 # Bibiana Loza Pérez
 **Senior Product Designer · HealthTech & Enterprise UX**
 
-b-loza@outlook.com · [linkedin.com/in/bibiLoza](https://www.linkedin.com/in/bibiana-loza-466080157) · México · bibiLoza.design
+b-loza@outlook.com · [linkedin.com/in/bibiLoza](https://www.linkedin.com/in/bibiana-loza-466080157) · México · [Bibi-Loza-portfolio](https://bibiloza.github.io/portfolio-ux-senior/)
 
 ---
 
