@@ -443,7 +443,7 @@
 }
 
 .project-card__image {
-  aspect-ratio: 16/9;
+  aspect-ratio: 25/9;
   position: relative;
   overflow: hidden;
 }
@@ -458,7 +458,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 200px;
 }
 
 .project-card__image-img {
